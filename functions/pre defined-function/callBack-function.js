@@ -1,4 +1,4 @@
-//fainction passing another function as an argument
+//function passing another function as an argument
 
 //features
 //asynchronous operations
