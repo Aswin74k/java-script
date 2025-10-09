@@ -1,0 +1,79 @@
+1. what is the difference between synchronous and asynchronous operation
+
+
+2. what is DOM
+ans:The Document Object Model (DOM) is a programming interface that represents the structure of HTML 
+and XML documents. It allows JavaScript to access and manipulate the content and structure of a 
+webpage. 
+
+3. what are the data types in js
+ans:JavaScript has six primitive data types: string, number, boolean, null, undefined, and symbol, along with 
+a complex data type called object. 
+
+
+4. what is the event in js
+ans:An event is an action or occurrence that happens in the browser, such as a button click or page load. 
+JavaScript can respond to these events by executing code in response. 
+
+
+
+5. what are closure in js
+ans:Closures are functions that have access to variables from an outer function, even after the outer 
+function has finished executing. They encapsulate data and provide a  
+way to maintain state between function calls.
+
+
+6. what is the difference between map and forEach
+
+
+7. what is the callback function in js
+ans:A callback function is a function that is passed as an argument to another function and gets execute
+
+
+
+8. what is inheritance in js
+ans:Inheritance is a mechanism in JavaScript where an object can inherit properties and methods from 
+another object. It allows for code reuse and creating hierarchical relationships between objects. 
+
+
+
+9. what is the purpose of trycatch statement 
+ans:The try/catch statement is used for error handling in JavaScript. It allows catching and handling 
+exceptions that occur during the execution of a block of code. 
+
+
+10. what is purpose of addEventListener method in js
+ans:The addEventListener() method is used to attach an event listener to an element. It allows you to listen 
+for specific events and execute a function when the event is triggered.
+
+
+11. what is difference between query selector and query selectorAll
+
+
+12. what is the difference between null and undefined
+ans:null represents the intentional absence of any 
+object value, while undefined indicates the absence of a value or an uninitialized variable.
+
+13. what is the difference between equal and strictly equal
+
+14. what is hoisting in js
+ans:Hoisting is a JavaScript behavior where variable and function declarations are moved to the top of their 
+containing scope during the compilation phase, allowing them to be used before they are declared.
+
+15. what is the "this keyword" in js
+
+16. what are the different ways to define function in js
+
+17. what is purpose of let, var, const
+var: redeclaration and reasignment is possible
+let: redeclaration not allowed reassignment is possible
+const:redeclaration not allowed
+
+
+18. difference between primitive and non primitive data types
+
+19. whats the use of spread operators
+20. what is ternary operators in js
+21. what is rest parameters
+
+
