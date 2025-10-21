@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h2>Audio Event : play puase ended</h2>
+
+    <audio controls id="audioPlayer">
+        <source src="./dgh.mp3" type="audio/mp3">
+    </audio>
+    <p id="eventOutput"> Event will appear here</p>
+     <script>
+        const audio = document.getElementById("audioPlayer");
+        const output = document.getElementById("eventOutput");
+
+        // play event
+        audio.addEventListener('play', () => {
+            output.textContent = "play event fired!!";
+            console.log("play event fired!!");
+        })
+
+
+
+             // pause event
+        audio.addEventListener('pause', () => {
+            output.textContent = "⏸ Pause event fired!";
+            console.log("Pause event fired!");
+        });
+
+
+ // ended event
+        audio.addEventListener('ended', () => {
+            output.textContent = "Ended event fired!";
+            console.log("Ended event fired!");
+        });
+
+    </script>
+</body>
+</html>

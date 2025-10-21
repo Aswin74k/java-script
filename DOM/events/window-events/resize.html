@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Resize Event Example</title>
+</head>
+<body>
+
+  <h2>Resize Event Example</h2>
+  <p>Try resizing the browser window to see the current width and height below.</p>
+  <p id="msg"></p>
+
+  <script>
+    // function to update message
+    function showSize() {
+      let width = window.innerWidth;
+      let height = window.innerHeight;
+      document.getElementById("msg").textContent =
+        "Window size: " + width + " x " + height;
+    }
+
+    // run once on load
+    showSize();
+
+    // update when resized
+    window.addEventListener("resize", showSize);
+  </script>
+
+</body>
+</html>

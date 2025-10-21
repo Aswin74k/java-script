@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Unload Event Example</title>
+</head>
+<body>
+
+  <h2>Unload Event Example</h2>
+  <p>Try reloading or closing this tab to trigger the unload event.</p>
+
+  <script>
+    window.addEventListener("unload", () => {
+      console.log("The page is unloading...");
+      alert("You are leaving the page!");
+    });
+  </script>
+
+</body>
+</html>

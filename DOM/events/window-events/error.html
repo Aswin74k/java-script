@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Error Event Example</title>
+</head>
+<body>
+
+  <h2>Error Event Example</h2>
+  <p>If an error occurs, it will be shown below.</p>
+  <p id="msg"></p>
+
+  <script>
+    // Listen for any JavaScript runtime errors
+    window.addEventListener("error", (event) => {
+      document.getElementById("msg").textContent =
+        "An error occurred: " + event.message;
+      console.log("Error details:", event);
+    });
+
+    // Intentionally cause an error
+    nonExistentFunction(); // this function doesn't exist
+  </script>
+
+</body>
+</html>
